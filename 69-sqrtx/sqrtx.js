@@ -3,5 +3,6 @@
  * @return {number}
  */
 var mySqrt = function(x) {
-  return Math.trunc(x**0.5);
+    console.log(x**0.5);
+  return Math.floor(x**0.5);
 };
